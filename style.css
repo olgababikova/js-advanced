@@ -93,7 +93,6 @@ h1, h2, h3, h4, h5, h6 {
 .cart-button {
   width: 100px;
   height: 30px;
-  cursor: pointer;
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
   margin-top: 10px;
@@ -101,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cart-button:hover {
   background-color: rgb(179, 179, 179);
+  color: white;
 }
 
 .goods-list {
@@ -121,4 +121,30 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: end;
   gap: 10px;
+}
+
+.goods-item:hover {
+  box-shadow: 0 0 15px rgba(172, 172, 172, 0.5);
+}
+
+.product__add-to-cart {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(172, 172, 172);
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.product__add-to-cart:hover {
+  background-color: rgb(172, 172, 172);
+  color: white;
+}
+
+.text-sum {
+  color: rgb(70, 70, 70);
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
 }
